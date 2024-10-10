@@ -7,3 +7,5 @@ vim.g.mapleader = " "
 
 vim.keymap.set('n', '<leader>K', vim.lsp.buf.hover, {})
 vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, {})
+
+vim.keymap.set('n', "<leader>gf", vim.lsp.buf.format, {})

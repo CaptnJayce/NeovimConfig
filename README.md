@@ -1,1 +1,1 @@
-neovim configuration with lazynvim
+neovim configuration with lazy

@@ -13,6 +13,6 @@ return {
 			before_highlight = function()
       end,
 		})
-    vim.cmd.colorscheme("ashen")
+    --vim.cmd.colorscheme("ashen")
 	end,
 }

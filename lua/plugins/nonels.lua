@@ -8,9 +8,16 @@ return {
 
     null_ls.setup({
       sources = {
+        -- lua
         null_ls.builtins.formatting.stylua,
+
+        -- C++
         -- null_ls.builtins.formatting.clang_format,
-        require("none-ls.diagnostics.cpplint")
+        require("none-ls.diagnostics.cpplint"),
+
+        -- Python
+        require("none-ls.diagnostics.ruff"),
+        null_ls.builtins.formatting.black,
       },
     })
   end,

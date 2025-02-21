@@ -12,7 +12,7 @@ return {
         null_ls.builtins.formatting.stylua,
 
         -- C++
-        -- null_ls.builtins.formatting.clang_format,
+        null_ls.builtins.formatting.clang_format,
         require("none-ls.diagnostics.cpplint"),
 
         -- Python

@@ -1,9 +1,10 @@
 return {
-	"/ellisonleao/gruvbox.nvim",
-	name = "gruvbox",
+	--"/ellisonleao/gruvbox.nvim",
+  "rebelot/kanagawa.nvim",
+	name = "kanagawa",
 
 	config = function()
-		require("gruvbox").setup({
+		require("kanagawa").setup({
 			styles = {
 				bold = true,
 				transparent_mode = true,
@@ -12,6 +13,6 @@ return {
 			before_highlight = function()
       end,
 		})
-    vim.cmd.colorscheme("gruvbox")
+    vim.cmd.colorscheme("kanagawa")
 	end,
 }
